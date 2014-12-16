@@ -61,4 +61,7 @@ for (tf, template, ccnorm, maxnorm) in res:
         cv2.putText(out, name, text_pt, cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 3)
         print name
 
-show_wait(out)
+if len(sys.argv) > 3:
+    cv2.imwrite(sys.argv[3], out)
+else:
+    show_wait(out)
