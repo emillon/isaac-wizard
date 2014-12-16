@@ -12,7 +12,7 @@ not work well.
 
 ![Example](https://i.imgur.com/4m9LDsu.png)
 
-See! It's not even a purple heart.
+See! It's not even a purple heart. But it's indeed Mom's Lipstick.
 
 How to use
 ----------
