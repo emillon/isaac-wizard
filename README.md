@@ -48,7 +48,7 @@ argument.
 Stuff to do
 -----------
 
-    - live capture instead of screenshots.
-    - draw on an overlay instead of generating a pic.
-    - improve performance. On my old tank it takes 3s per frame.
-    - assist stuff (open wiki, etc).
+  - live capture instead of screenshots.
+  - draw on an overlay instead of generating a pic.
+  - improve performance. On my old tank it takes 3s per frame.
+  - assist stuff (open wiki, etc).
