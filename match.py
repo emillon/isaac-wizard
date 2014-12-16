@@ -6,6 +6,7 @@ img = cv2.imread(sys.argv[1])
 
 img2 = img[:,:,2]
 img2 = img2 - cv2.erode(img2, None)
+
 template = cv2.imread(sys.argv[2])[:,:,2]
 template = template - cv2.erode(template, None)
 
@@ -20,4 +21,6 @@ for pt in zip(*loc[::-1]):
     cv2.rectangle(img, pt, (pt[0] + tw, pt[1] + th),
             (0, 0, 255), 2)
 
-cv2.imwrite(sys.argv[3], img)
+cv2.imshow('Match', img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
